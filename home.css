@@ -1,0 +1,59 @@
+/* Gives the whole page a different font */
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+  }
+  
+  /* Divides thew page into three so that the image fits well on top */
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  /* Inserst an image of a living room */
+  .bgimg-1 {
+    background-image: url("houseint.jpg");
+    height: 50%;
+  }
+  
+/* Creates a space between the mission statement and the image above it */
+  #mission {
+      margin-top: 20px;
+  }
+/* Creates space between the products and mission statement */
+  #picLink{
+    margin-top: 25px;
+  }
+
+/* Makes the footer flexible, gives it a background color, and leaves it in a fixed postion  */
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+}
+p .footw {
+  float: left;
+}
+
+/* Changes the color of the text and background of the title on the image */
+#titltext{
+  color: black;
+  background: rgba(201, 212, 218, 0.7)
+}
+
+/* Changes the background color of the nav and buttons */
+#navlook{
+  background: rgb(90, 110, 224);
+}
+
+.bbs{
+  background: rgb(90, 110, 224);
+  color: white;
+}

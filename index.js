@@ -1,0 +1,1 @@
+document.querySelectorAll(bbs).style.backgroundcolor= "rgb(90, 110, 224)";

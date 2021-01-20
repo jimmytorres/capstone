@@ -1,0 +1,23 @@
+body, html{
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+.footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+  }
+  p .footw {
+    float: left;
+  }
+
+  #navlook{
+    background: rgb(90, 110, 224);
+  }
+  
+  .bbs{
+    background: rgb(90, 110, 224);
+    color: white;
+  }
